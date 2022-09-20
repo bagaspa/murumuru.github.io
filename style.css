@@ -1,0 +1,26 @@
+.jumbotron {
+  background-color: #abdfdf;
+  padding-top: 5rem;
+}
+
+#about {
+  padding-top: 6rem;
+}
+
+#project {
+  padding-top: 6rem;
+}
+
+#contact {
+  padding-top: 6rem;
+}
+
+.zeus {
+  position: relative;
+  top: -100px;
+  right: 50px;
+}
+
+.clear {
+  clear: left;
+}
