@@ -1,6 +1,11 @@
 .jumbotron {
   background-color: #abdfdf;
   padding-top: 5rem;
+  display: flex;
+}
+
+.hero {
+  padding-top: 6rem;
 }
 
 #about {
@@ -17,10 +22,27 @@
 
 .zeus {
   position: relative;
-  top: -100px;
   right: 50px;
+  padding-bottom: 30px;
 }
 
-.clear {
-  clear: left;
+.nav-link {
+  border-radius: 7px;
+  padding: 3px;
+}
+
+.nav-link:hover {
+  background-color: #abdfdf;
+  color: white;
+  border-radius: 7px;
+  padding: 3px;
+  transform: translateY(-3px);
+}
+
+.nav-link:active {
+  background-color: #3b3b3b;
+  color: white;
+  border-radius: 7px;
+  padding: 3px;
+  transform: translateY(-3px);
 }
